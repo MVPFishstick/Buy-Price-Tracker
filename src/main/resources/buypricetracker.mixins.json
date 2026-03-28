@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.buypricetracker.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ItemStackTooltipMixin",
+    "HandledScreenClickMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
