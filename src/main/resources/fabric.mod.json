@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "buypricetracker",
+  "version": "${version}",
+  "name": "Buy Price Tracker",
+  "description": "Tracks auction-house purchase price and time per item and appends them to the tooltip forever.",
+  "authors": [
+    "Codex"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.buypricetracker.BuyPriceTrackerClient"
+    ]
+  },
+  "mixins": [
+    "buypricetracker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
